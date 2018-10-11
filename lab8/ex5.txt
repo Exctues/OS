@@ -1,0 +1,3 @@
+Virtual memory is illusion of infinity memory (as was said in lecture);
+the way we can run or use large programs which requires (much)more memory that we have(can allocate) physically in our RAM.
+Paging is one of the technique implementing virtual memory.
