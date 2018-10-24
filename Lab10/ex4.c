@@ -6,7 +6,7 @@
 
 void main()
 {
-    //freopen("ex4.txt",'w',stdout);
+    freopen("ex4.txt", "w", stdout);
     DIR *dirp = opendir("/tmp");
     if (dirp == NULL)
     {
@@ -27,7 +27,7 @@ void main()
         struct stat buf;
         stat(entry_p->d_name, &buf);
 
-        printf("%s, #hardlinks = %lu\n", entry_p->d_name, buf.st_nlink);
+        printf("name:%s, #hardlinks: %lu\n", entry_p->d_name, buf.st_nlink);
     }
     closedir(dirp);
 }
