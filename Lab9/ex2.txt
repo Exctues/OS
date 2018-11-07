@@ -1,0 +1,7 @@
+For increasing perfomance:
+Just sort the input file and we get increasing hit/miss ration because if there is duplicate
+then we won't need to delete something(miss)
+and put new value instead because element(page) we try to find already there.
+
+For decreasing perfomance:
+We can shuffle input such that there's no same elements next to each other.

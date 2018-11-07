@@ -1,0 +1,25 @@
+name:systemd-private-650beb9fe641493291b8290b1d1b7147-colord.service-5AS2yp, #hardlinks: 140733528105576
+name:systemd-private-650beb9fe641493291b8290b1d1b7147-fwupd.service-9Yp4qh, #hardlinks: 140733528105576
+name:.font-unix, #hardlinks: 140733528105576
+name:.X1024-lock, #hardlinks: 140733528105576
+name:snap.0_canonical-livepatch_BUnIRq, #hardlinks: 140733528105576
+name:config-err-kMRxCr, #hardlinks: 140733528105576
+name:., #hardlinks: 4
+name:.., #hardlinks: 13
+name:.X11-unix, #hardlinks: 13
+name:pipe_client_response_3222_0, #hardlinks: 13
+name:snap.1000_telegram-desktop_c3TwYA, #hardlinks: 13
+name:.Test-unix, #hardlinks: 13
+name:systemd-private-650beb9fe641493291b8290b1d1b7147-systemd-timesyncd.service-idKIT6, #hardlinks: 13
+name:VSCode Crashes, #hardlinks: 13
+name:pipe_server_response_3222_0, #hardlinks: 13
+name:snap.1000_mailspring_mTqV9N, #hardlinks: 13
+name:systemd-private-650beb9fe641493291b8290b1d1b7147-rtkit-daemon.service-8KaiKO, #hardlinks: 13
+name:systemd-private-650beb9fe641493291b8290b1d1b7147-systemd-resolved.service-OFt8ZR, #hardlinks: 13
+name:pipe_client_request_3222_0, #hardlinks: 13
+name:systemd-private-650beb9fe641493291b8290b1d1b7147-bolt.service-VCVIhQ, #hardlinks: 13
+name:.com.google.Chrome.YqyQFe, #hardlinks: 13
+name:.XIM-unix, #hardlinks: 13
+name:.ICE-unix, #hardlinks: 13
+name:pipe_server_request_3222_0, #hardlinks: 13
+name:ssh-fIZspLvYb5xI, #hardlinks: 13
