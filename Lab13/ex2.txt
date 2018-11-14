@@ -1,0 +1,18 @@
+First about recovery. We have 2 types of recovery:
+    1) Through preemption - when you can take a resource away from a processes and use it and then return it back.
+    2) Through rollback - when OS makes checkpoints(save in file current state) and then 
+    in case of deadlock return back to earlier state when there's no deadlock.
+    3) Through killing processes - the simplest way to break a deadlock (same as return to a checkpoint made on time = 0(e.g. when process just started))
+
+Preemption is good approuch but is highly dependent on nature of a resource (if process A is burning a blu-ray disk then process B can't preempt this blu-ray).
+
+Rollback is very expensive to have (in perfomance sense). It will take a lot of time to switch in kernel mode and create checkpoint, then check if theres a deadlock
+and decide to which state system should be returned... after everything is done switch back in user mode and do it after every user action... Incredibly slow.
+
+Killing is nice approuch when there's no any ill affect after killing. Means we can easily restart process without troubles.
+
+Second about avoidance.
+OS should suspend proccess which can cause deadlock. It means that in order to predict deadlock and avoid it should be made some assumptions about
+process behaviour. HALTING PROBLEM.
+
+
